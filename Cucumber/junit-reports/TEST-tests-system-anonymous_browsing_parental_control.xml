@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="Anonymous Browsing Parental Control" skipped="0" tests="1" time="13.984398">
+<testcase classname="Anonymous Browsing Parental Control" name="I should be able to change parental control with anon browsing on when logged into the app" time="13.984398">
+  <failure message="failed I should be able to change parental control with anon browsing on when logged into the app" type="failed">
+    <![CDATA[Scenario: I should be able to change parental control with anon browsing on when logged into the app
+
+Given app is open and configured for system tests
+And app is configured for cwmciwla lab
+And anonymous browsing is enabled
+And anonymous browsing default parental rating is "72"
+And all assets have a zero price
+And app is started
+Then browse screen is displayed
+And the parental control button is disabled
+When asset with title "A Few Good Men" is clicked
+Then the play overlay is displayed
+When play overlay is clicked
+Then the login dialog is displayed
+Given the user "nmp@nagra.com" with password "nmp" has logged in using the login pop up
+And the initial loading animation is shown
+And the interceptor is loaded
+And app is configured for cwmciwla lab
+And anonymous browsing is enabled
+And anonymous browsing default parental rating is "72"
+And all assets have a zero price
+And app is started
+Then browse screen is displayed
+When parental control dialog is opened from browse screen
+Then parental control screen is displayed with ALL selected
+
+Message:
+]]>
+    <![CDATA[undefined method `displayed?' for nil:NilClass (NoMethodError)
+./features/step_definitions/login.rb:67:in `block (2 levels) in <top (required)>'
+./features/step_definitions/login.rb:67:in `/^the login dialog is displayed$/'
+tests\system\anonymous_browsing_parental_control.feature:19:in `Then the login dialog is displayed']]>
+  </failure>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

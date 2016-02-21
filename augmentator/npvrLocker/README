@@ -1,0 +1,34 @@
+NPVRLocker notes:
+
+The config set up for the NPVR config should be:
+	SDP_CONFIG : {
+		HEAD_END : "OTT",
+		URL : "localhost:3000",
+		MAC_ADDRESS : "00-05-9E-00-00-18",
+		PATH : "/dummy",
+		CDG_PATH: "contentdiscovery/v1"
+	},
+
+	MDS_CONFIG : {
+		MDS_URL : "localhost/",
+		MDS_PATH : "dummy",
+		MDS_PORT : "3000",
+		SERVICE_PROVIDER : "DUMMY"
+	},
+
+	//flag to enable/disable network pvr
+	NPVR_ENABLED : true,
+	NPVR_SERIES_ENABLED : true,
+
+	LOCKER_CONFIG : {
+		URL : "localhost",
+		PORT : 3000,
+		SERVICE_PATH : "api",
+		SECURITY : false,
+		PROVIDER : "LAB"
+	},
+
+The routes can be added using the urls:
+	http://localhost:3000/appendfileconfig=npvrLocker/sdp.json
+	http://localhost:3000/appendfileconfig=npvrLocker/mds.json
+	http://localhost:3000/appendfileconfig=npvrLocker/npvrLocker.json

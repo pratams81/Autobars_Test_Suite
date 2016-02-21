@@ -1,0 +1,2410 @@
+{
+	"total_records": 38,
+	"services": [{
+		"e": "ENVIVIO_CH3_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "2b352741412f3d0418010d010d00"
+			},
+			"catchUpSupport": false,
+			"Title": "channel 3",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/03/index.m3u8",
+			"longName": "channel 03 version",
+			"id": "ENVIVIO_CH3_V",
+			"Description": "clear envivio channel 03",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662", "LYS000060661"],
+			"tvChannel": 3,
+			"regions": [],
+			"nPvrSupport": true,
+			"nPVR_RollingBufferDuration": 43200,
+			"mainChannelId": "ENVIVIO_CH3_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/BBC Entertainment.png"],
+			"active": true,
+			"shortName": "03v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "ENVIVIO_CH3_V|B1",
+			"startOverSupport": false
+		},
+		"t": "ENVIVIO_CH3_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "2b352741412f3d041218043f2737410113011300"
+			},
+			"_id": "ENVIVIO_CH3_M|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 3,
+			"Title": "channel 03 main",
+			"catchUpSupport": false,
+			"longName": "channel 03 main",
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "03m",
+			"startOverSupport": false,
+			"type": "BTV",
+			"id": "ENVIVIO_CH3_M",
+			"Description": "envivio clear channel 03 main"
+		},
+		"provider": "B1"
+	}, {
+		"e": "Num_test_3_main|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "414f3f2f492b3727293d2f044d2f4b4d04180116018f1500"
+			},
+			"catchUpSupport": false,
+			"Title": "Numerciable test 3",
+			"NetworkLocation": "http://se-1.se.test3-hls.live.numericable.tv/live/hls/test3/ipad.m3u8",
+			"longName": "num_3_version",
+			"id": "Num_test_3_version",
+			"drmId": "1503",
+			"companyId": "B1",
+			"productRefs": ["LYS000060661"],
+			"tvChannel": 53,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "Num_test_3_main",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"drmInstanceName": "PRM_Nagra",
+			"active": true,
+			"shortName": "num_3_v",
+			"Rating": {
+				"code": "2",
+				"precedence": 2,
+				"Title": "Under 5"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "Num_test_3_version|B1",
+			"startOverSupport": false
+		},
+		"t": "Num_test_3_version|B1",
+		"editorial": {
+			"Rating": {
+				"code": "2",
+				"precedence": 2,
+				"Title": "Under 5"
+			},
+			"nls": {
+				"Title": "414f3f2f49372b27293d2f044d2f4b4d04180116018f1500"
+			},
+			"_id": "Num_test_3_main|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 53,
+			"Title": "Numericable test 3",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "num_3_m",
+			"longName": "num_3_main",
+			"type": "BTV",
+			"id": "Num_test_3_main",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "WEB_08M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "41274b27044d51010b018f828f8f00"
+			},
+			"catchUpSupport": false,
+			"Title": "Nasa TV",
+			"NetworkLocation": "http://public.infozen.cshls.lldns.net/infozen/public/public.m3u8",
+			"longName": "channel 08 version",
+			"id": "WEB_08V",
+			"Description": "Nasa television",
+			"companyId": "B1",
+			"productRefs": ["LYS000060661"],
+			"tvChannel": 8,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "WEB_08M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/NASA.png"],
+			"active": true,
+			"shortName": "08v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "WEB_08V|B1",
+			"startOverSupport": false
+		},
+		"t": "WEB_08V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "41274b27044d51010b018f8f8f8f858f8f00"
+			},
+			"_id": "WEB_08M|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 8,
+			"Title": "NASA TV",
+			"catchUpSupport": false,
+			"longName": "channel 08 main",
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "08m",
+			"startOverSupport": false,
+			"type": "BTV",
+			"id": "WEB_08M",
+			"Description": "NASA TV"
+		},
+		"provider": "B1"
+	}, {
+		"e": "Num_test_4_main|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "414f3f2f492b3727293d2f044d2f4b4d04180116018f1500"
+			},
+			"catchUpSupport": false,
+			"Title": "Numerciable test 3",
+			"NetworkLocation": "http://se-1.se.test4-hls.live.numericable.tv/live/hls/test4/ipad.m3u8",
+			"longName": "num_4_version",
+			"id": "Num_test_4_version",
+			"drmId": "1504",
+			"companyId": "B1",
+			"productRefs": ["LYS000060661"],
+			"tvChannel": 54,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "Num_test_4_main",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"drmInstanceName": "PRM_Nagra",
+			"active": true,
+			"shortName": "num_4_v",
+			"Rating": {
+				"code": "2",
+				"precedence": 2,
+				"Title": "Under 5"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "Num_test_4_version|B1",
+			"startOverSupport": false
+		},
+		"t": "Num_test_4_version|B1",
+		"editorial": {
+			"Rating": {
+				"code": "2",
+				"precedence": 2,
+				"Title": "Under 5"
+			},
+			"nls": {
+				"Title": "414f3f2f49372b27293d2f044d2f4b4d041a0116018f1500"
+			},
+			"_id": "Num_test_4_main|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 54,
+			"Title": "Numericable test 4",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "num_4_m",
+			"longName": "num_4_main",
+			"type": "BTV",
+			"id": "Num_test_4_main",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "socu3|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "4b432b4f042b352741412f3d041e140113011300"
+			},
+			"catchUpSupport": true,
+			"Title": "socu channel 61",
+			"NetworkLocation": "http://nmp.nagra.com/haorigin/hls/Live/Channel(Eurosport)/index.m3u8",
+			"longName": "socu3v",
+			"id": "socu3v",
+			"drmId": "1222",
+			"companyId": "B1",
+			"productRefs": ["LYS000060661"],
+			"tvChannel": 63,
+			"regions": [],
+			"deviceType": ["PC_CLEAR", "TABLET_CLEAR", "STB", "TABLET", "PHONE", "Default", "PC", "STB_CLEAR", "Super", "PHONE_CLEAR"],
+			"mainChannelId": "socu3",
+			"provider": "B1",
+			"nPvrSupport": true,
+			"profileRef": "LYS000497387",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/socu.png"],
+			"drmInstanceName": "PRM_Nagra",
+			"active": true,
+			"shortName": "socu3v",
+			"Description": "Encrypted Channel Harmonic Encoder channel 60",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"type": "BTV",
+			"_id": "socu3v|B1",
+			"startOverSupport": true
+		},
+		"t": "socu3v|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "4b432b4f041e12010b010b00"
+			},
+			"_id": "socu3|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 63,
+			"Title": "socu 60",
+			"catchUpSupport": true,
+			"longName": "socu3",
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "socu3",
+			"startOverSupport": true,
+			"type": "BTV",
+			"id": "socu3",
+			"Description": "socu 60"
+		},
+		"provider": "B1"
+	}, {
+		"e": "ENVIVIO_CH4_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "2b352741412f3d04121a04512f494b3743410116011600"
+			},
+			"catchUpSupport": false,
+			"Title": "channel 04 version",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/04/index.m3u8",
+			"longName": "channel 04 version",
+			"id": "ENVIVIO_CH4_V",
+			"Description": "envivio clear channel 04 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 4,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "ENVIVIO_CH4_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/arte HD.png"],
+			"active": true,
+			"shortName": "04v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "ENVIVIO_CH4_V|B1",
+			"startOverSupport": false
+		},
+		"t": "ENVIVIO_CH4_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "2b352741412f3d04121a043f2737410113011300"
+			},
+			"_id": "ENVIVIO_CH4_M|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 4,
+			"Title": "channel 04 main",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "04m",
+			"longName": "channel 04 main",
+			"type": "BTV",
+			"id": "ENVIVIO_CH4_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_18_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "272d4f3d4d042b352741412f3d0111011100"
+			},
+			"catchUpSupport": false,
+			"Title": "adult channel",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 18 version",
+			"id": "FAKE_18_V",
+			"Description": "fake clear channel 18 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 18,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_18_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/18.jpg"],
+			"active": true,
+			"shortName": "18v",
+			"Rating": {
+				"code": "15",
+				"precedence": 15,
+				"Title": "Adult"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_18_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_18_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "15",
+				"precedence": 15,
+				"Title": "Adult"
+			},
+			"nls": {
+				"Title": "31273b2f041422010b018f0a00"
+			},
+			"_id": "FAKE_18_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/18.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 18,
+			"Title": "Fake 18",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "18m",
+			"longName": "fake 18 main",
+			"type": "BTV",
+			"id": "FAKE_18_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_15_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "4d35374b042b352741412f3d04374b044f414b4f374d27293d2f04314349044f412d2f4904141c012b018f2a00"
+			},
+			"catchUpSupport": false,
+			"Title": "This channel is unsuitable for under 15",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 15 version",
+			"id": "FAKE_15_V",
+			"Description": "fake clear channel 15 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 15,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_15_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/15.jpg"],
+			"active": true,
+			"shortName": "15v",
+			"Rating": {
+				"code": "12",
+				"precedence": 12,
+				"Title": "Under 15"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_15_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_15_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "12",
+				"precedence": 12,
+				"Title": "Under 15"
+			},
+			"nls": {
+				"Title": "4d35374b042b352741412f3d04374b044f414b4f374d27293d2f04314349044f412d2f4904141c012b018f2a00"
+			},
+			"_id": "FAKE_15_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/15.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 15,
+			"Title": "This channel is unsuitable for under 15",
+			"catchUpSupport": false,
+			"longName": "fake 15 main",
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "15m",
+			"startOverSupport": false,
+			"type": "BTV",
+			"id": "FAKE_15_M",
+			"Description": "fake 15 channel - this channel has a parental rating"
+		},
+		"provider": "B1"
+	}, {
+		"e": "HARMONIC_CH7M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "3527493f4341372b042b352741412f3d0412200117018f1600"
+			},
+			"catchUpSupport": true,
+			"Title": "Harmonic channel 07",
+			"NetworkLocation": "http://nmp.nagra.com/haorigin/hls/Live/Channel(Eurosport)/index.m3u8",
+			"longName": "channel 07 version",
+			"id": "HARMONIC_CH7V",
+			"drmId": "1223",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662", "LYS000060661"],
+			"tvChannel": 7,
+			"regions": [],
+			"deviceType": [],
+			"mainChannelId": "HARMONIC_CH7M",
+			"provider": "B1",
+			"nPvrSupport": true,
+			"profileRef": "LYS000001072",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/Eurosport.png"],
+			"drmInstanceName": "PRM_Nagra",
+			"active": true,
+			"shortName": "07v",
+			"Description": "Encrypted Channel Harmonic Encoder channel 07 *",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"type": "BTV",
+			"_id": "HARMONIC_CH7V|B1",
+			"startOverSupport": true
+		},
+		"t": "HARMONIC_CH7V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "3527493f4341372b042b352741412f3d0412200117018f1600"
+			},
+			"_id": "HARMONIC_CH7M|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 7,
+			"Title": "Harmonic channel 07",
+			"catchUpSupport": true,
+			"longName": "channel 07 main",
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "07m",
+			"startOverSupport": true,
+			"type": "BTV",
+			"id": "HARMONIC_CH7M",
+			"Description": "Encrypted Channel Harmonic Encoder channel 07"
+		},
+		"provider": "B1"
+	}, {
+		"e": "ENVIVIO_CH5_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "2b352741412f3d04121c04512f494b3743410116011600"
+			},
+			"catchUpSupport": false,
+			"Title": "channel 05 version",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/05/index.m3u8",
+			"longName": "channel 05 version",
+			"id": "ENVIVIO_CH5_V",
+			"Description": "envivio clear channel 05 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662", "LYS000060661"],
+			"tvChannel": 5,
+			"regions": [],
+			"nPvrSupport": true,
+			"nPVR_RollingBufferDuration": 43200,
+			"mainChannelId": "ENVIVIO_CH5_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/euronews.png"],
+			"active": true,
+			"shortName": "05v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "ENVIVIO_CH5_V|B1",
+			"startOverSupport": false
+		},
+		"t": "ENVIVIO_CH5_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "2b352741412f3d04121c043f2737410113011300"
+			},
+			"_id": "ENVIVIO_CH5_M|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 5,
+			"Title": "channel 05 main",
+			"catchUpSupport": false,
+			"longName": "channel 05 main",
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "05m",
+			"startOverSupport": false,
+			"type": "BTV",
+			"id": "ENVIVIO_CH5_M",
+			"Description": "envivio clear channel 05 main"
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_24_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f04161a010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 24",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 24 version",
+			"id": "FAKE_24_V",
+			"Description": "fake clear channel 24 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 24,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_24_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/24.jpg"],
+			"active": true,
+			"shortName": "24v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_24_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_24_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f04161a010b018f0a00"
+			},
+			"_id": "FAKE_24_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/24.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 24,
+			"Title": "Fake 24",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "24m",
+			"longName": "fake 24 main",
+			"type": "BTV",
+			"id": "FAKE_24_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_10_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041412010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 10",
+			"NetworkLocation": "http://se-1.se.test1-hls.live.numericable.tv/live/hls/test1/ipad.m3u8",
+			"longName": "fake 10 version",
+			"id": "FAKE_10_V",
+			"drmId": "15033",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 10,
+			"regions": [],
+			"deviceType": [],
+			"mainChannelId": "FAKE_10_M",
+			"provider": "B1",
+			"nPvrSupport": true,
+			"profileRef": "LYS000001072",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/tf1.jpg"],
+			"drmInstanceName": "PRM_Nagra",
+			"active": true,
+			"shortName": "10v",
+			"Description": "fake clear channel 10 version",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"type": "BTV",
+			"_id": "FAKE_10_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_10_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f041412010b018f0a00"
+			},
+			"_id": "FAKE_10_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/tf1.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 10,
+			"Title": "Fake 10",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "10m",
+			"longName": "fake 10 main",
+			"type": "BTV",
+			"id": "FAKE_10_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_30_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041812010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 30",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 30 version",
+			"id": "FAKE_30_V",
+			"Description": "fake clear channel 30 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 30,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_30_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/30.jpg"],
+			"active": true,
+			"shortName": "30v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_30_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_30_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f041812010b018f0a00"
+			},
+			"_id": "FAKE_30_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/30.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 30,
+			"Title": "Fake 30",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "30m",
+			"longName": "fake 30 main",
+			"type": "BTV",
+			"id": "FAKE_30_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_11_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041414010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 11",
+			"NetworkLocation": "http://webtv-live1.canal-bis.com/live/hlsdvr/channel1-hd-andr7/and-hddvr/index.m3u8",
+			"longName": "fake 11 version",
+			"id": "FAKE_11_V",
+			"drmId": "11",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662", "LYS000060661"],
+			"tvChannel": 11,
+			"regions": [],
+			"deviceType": [],
+			"mainChannelId": "FAKE_11_M",
+			"provider": "B1",
+			"nPvrSupport": true,
+			"profileRef": "LYS000001072",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/11.jpg"],
+			"drmInstanceName": "PRM_Nagra",
+			"active": true,
+			"shortName": "11v",
+			"Description": "fake clear channel 11 version",
+			"Rating": {
+				"code": "8",
+				"precedence": 8,
+				"Title": "Under 11"
+			},
+			"type": "BTV",
+			"_id": "FAKE_11_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_11_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "8",
+				"precedence": 8,
+				"Title": "Under 11"
+			},
+			"nls": {
+				"Title": "31273b2f041414010b018f0a00"
+			},
+			"_id": "FAKE_11_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/11.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 11,
+			"Title": "Fake 11",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "11m",
+			"longName": "fake 11 main",
+			"type": "BTV",
+			"id": "FAKE_11_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_17_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041420010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 17",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 17 version",
+			"id": "FAKE_17_V",
+			"Description": "fake clear channel 17 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 17,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_17_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/17.jpg"],
+			"active": true,
+			"shortName": "17v",
+			"Rating": {
+				"code": "14",
+				"precedence": 14,
+				"Title": "Under 17"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_17_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_17_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "14",
+				"precedence": 14,
+				"Title": "Under 17"
+			},
+			"nls": {
+				"Title": "4d35374b042b352741412f3d04374b044f414b4f374d27293d2f04314349044f412d2f49041420012b018f2a00"
+			},
+			"_id": "FAKE_17_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/17.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 17,
+			"Title": "This channel is unsuitable for under 17",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "17m",
+			"longName": "fake 17 main",
+			"type": "BTV",
+			"id": "FAKE_17_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_16_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f04141e010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 16",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 16 version",
+			"id": "FAKE_16_V",
+			"Description": "fake clear channel 16 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 16,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_16_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/16.jpg"],
+			"active": true,
+			"shortName": "16v",
+			"Rating": {
+				"code": "13",
+				"precedence": 13,
+				"Title": "Under 16"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_16_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_16_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "13",
+				"precedence": 13,
+				"Title": "Under 16"
+			},
+			"nls": {
+				"Title": "4d35374b042b352741412f3d04374b044f414b4f374d27293d2f04314349044f412d2f4904141e012b018f2a00"
+			},
+			"_id": "FAKE_16_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/16.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 16,
+			"Title": "This channel is unsuitable for under 16",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "16m",
+			"longName": "fake 16 main",
+			"type": "BTV",
+			"id": "FAKE_16_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_32_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041816010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 32",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 32 version",
+			"id": "FAKE_32_V",
+			"Description": "fake clear channel 32 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 32,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_32_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/32.jpg"],
+			"active": true,
+			"shortName": "32v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_32_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_32_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f041816010b018f0a00"
+			},
+			"_id": "FAKE_32_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/32.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 32,
+			"Title": "Fake 32",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "32m",
+			"longName": "fake 32 main",
+			"type": "BTV",
+			"id": "FAKE_32_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_21_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041614010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 21",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 21 version",
+			"id": "FAKE_21_V",
+			"Description": "fake clear channel 21 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 21,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_21_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/21.jpg"],
+			"active": true,
+			"shortName": "21v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_21_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_21_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f041614010b018f0a00"
+			},
+			"_id": "FAKE_21_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/21.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 21,
+			"Title": "Fake 21",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "21m",
+			"longName": "fake 21 main",
+			"type": "BTV",
+			"id": "FAKE_21_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_13_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "4d35374b042b352741412f3d04374b044f414b4f374d27293d2f04314349044f412d2f49041418012b018f2a00"
+			},
+			"catchUpSupport": true,
+			"Title": "This channel is unsuitable for under 13",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 13 version",
+			"id": "FAKE_13_V",
+			"Description": "fake clear channel 13 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662", "LYS000060661"],
+			"tvChannel": 13,
+			"regions": ["ACCESSPOINT1"],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_13_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/13.jpg"],
+			"active": true,
+			"shortName": "13v",
+			"Rating": {
+				"code": "10",
+				"precedence": 10,
+				"Title": "Under 13"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_13_V|B1",
+			"startOverSupport": true
+		},
+		"t": "FAKE_13_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "10",
+				"precedence": 10,
+				"Title": "Under 13"
+			},
+			"nls": {
+				"Title": "4d35374b042b352741412f3d04374b044f414b4f374d27293d2f04314349044f412d2f49041418012b018f2a00"
+			},
+			"_id": "FAKE_13_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/13.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 13,
+			"Title": "This channel is unsuitable for under 13",
+			"catchUpSupport": true,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "13m",
+			"longName": "fake 13 main",
+			"type": "BTV",
+			"id": "FAKE_13_M",
+			"startOverSupport": true
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_29_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041624010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 29",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 29 version",
+			"id": "FAKE_29_V",
+			"Description": "fake clear channel 29 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 29,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_29_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/29.jpg"],
+			"active": true,
+			"shortName": "29v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_29_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_29_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f041624010b018f0a00"
+			},
+			"_id": "FAKE_29_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/29.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 29,
+			"Title": "Fake 29",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "29m",
+			"longName": "fake 29 main",
+			"type": "BTV",
+			"id": "FAKE_29_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_22_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041616010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 22",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 22 version",
+			"id": "FAKE_22_V",
+			"Description": "fake clear channel 22 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 22,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_22_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/22.jpg"],
+			"active": true,
+			"shortName": "22v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_22_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_22_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f041614010b018f0a00"
+			},
+			"_id": "FAKE_22_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/22.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 22,
+			"Title": "Fake 21",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "22m",
+			"longName": "fake 22 main",
+			"type": "BTV",
+			"id": "FAKE_22_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_12_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "4d35374b042b352741412f3d04374b044f414b4f374d27293d2f04314349044f412d2f49041416012b018f2a00"
+			},
+			"catchUpSupport": false,
+			"Title": "This channel is unsuitable for under 12",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 12 version",
+			"id": "FAKE_12_V",
+			"Description": "fake clear channel 12 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662", "LYS000060661"],
+			"tvChannel": 12,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_12_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/12.jpg"],
+			"active": true,
+			"shortName": "12v",
+			"Rating": {
+				"code": "9",
+				"precedence": 9,
+				"Title": "Under 12"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_12_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_12_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "9",
+				"precedence": 9,
+				"Title": "Under 12"
+			},
+			"nls": {
+				"Title": "4d35374b042b352741412f3d04374b044f414b4f374d27293d2f04314349044f412d2f49041416012b018f2a00"
+			},
+			"_id": "FAKE_12_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/12.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 12,
+			"Title": "This channel is unsuitable for under 12",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "12m",
+			"longName": "fake 12 main",
+			"type": "BTV",
+			"id": "FAKE_12_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_19_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041424010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 19",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 19 version",
+			"id": "FAKE_19_V",
+			"Description": "fake clear channel 19 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 19,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_19_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/19.jpg"],
+			"active": true,
+			"shortName": "19v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_19_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_19_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f041424010b018f0a00"
+			},
+			"_id": "FAKE_19_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/19.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 19,
+			"Title": "Fake 19",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "19m",
+			"longName": "fake 19 main",
+			"type": "BTV",
+			"id": "FAKE_19_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_28_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041622010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 28",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 28 version",
+			"id": "FAKE_28_V",
+			"Description": "fake clear channel 28 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 28,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_28_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/28.jpg"],
+			"active": true,
+			"shortName": "28v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_28_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_28_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f041622010b018f0a00"
+			},
+			"_id": "FAKE_28_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/28.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 28,
+			"Title": "Fake 28",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "28m",
+			"longName": "fake 28 main",
+			"type": "BTV",
+			"id": "FAKE_28_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_31_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041814010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 31",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 31 version",
+			"id": "FAKE_31_V",
+			"Description": "fake clear channel 31 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 31,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_31_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/31.jpg"],
+			"active": true,
+			"shortName": "31v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_31_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_31_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f041814010b018f0a00"
+			},
+			"_id": "FAKE_31_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/31.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 31,
+			"Title": "Fake 31",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "31m",
+			"longName": "fake 31 main",
+			"type": "BTV",
+			"id": "FAKE_31_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "Num_test_1_main|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "414f3f2f492b3727293d2f044d2f4b4d04140116018f1500"
+			},
+			"catchUpSupport": false,
+			"Title": "Numerciable test 1",
+			"NetworkLocation": "http://se-1.se.test1-hls.live.numericable.tv/live/hls/test1/ipad.m3u8",
+			"longName": "num_1_version",
+			"id": "Num_test_1_version",
+			"drmId": "15024",
+			"companyId": "B1",
+			"productRefs": ["LYS000060661"],
+			"tvChannel": 51,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "Num_test_1_main",
+			"provider": "B1",
+			"deviceType": [],
+			"profileRef": "LYS000001072",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/tf1.jpg"],
+			"drmInstanceName": "PRM_Nagra",
+			"active": true,
+			"shortName": "num_1_v",
+			"Rating": {
+				"code": "2",
+				"precedence": 2,
+				"Title": "Under 5"
+			},
+			"type": "BTV",
+			"_id": "Num_test_1_version|B1",
+			"startOverSupport": false
+		},
+		"t": "Num_test_1_version|B1",
+		"editorial": {
+			"Rating": {
+				"code": "2",
+				"precedence": 2,
+				"Title": "Under 5"
+			},
+			"nls": {
+				"Title": "414f3f2f49372b27293d2f044d2f4b4d04140116018f1500"
+			},
+			"_id": "Num_test_1_main|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/tf1.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 51,
+			"Title": "Numericable test 1",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "num_1_m",
+			"longName": "num_1_main",
+			"type": "BTV",
+			"id": "Num_test_1_main",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "Num_test_2_main|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "414f3f2f492b3727293d2f044d2f4b4d04180116018f1500"
+			},
+			"catchUpSupport": false,
+			"Title": "Numerciable test 3",
+			"NetworkLocation": "http://se-1.se.test2-hls.live.numericable.tv/live/hls/test2/ipad.m3u8",
+			"longName": "num_2_version",
+			"id": "Num_test_2_version",
+			"drmId": "22",
+			"companyId": "B1",
+			"productRefs": ["LYS000060661"],
+			"tvChannel": 52,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "Num_test_2_main",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"drmInstanceName": "PRM_Nagra",
+			"active": true,
+			"shortName": "num_2_v",
+			"Rating": {
+				"code": "2",
+				"precedence": 2,
+				"Title": "Under 5"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "Num_test_2_version|B1",
+			"startOverSupport": false
+		},
+		"t": "Num_test_2_version|B1",
+		"editorial": {
+			"Rating": {
+				"code": "2",
+				"precedence": 2,
+				"Title": "Under 5"
+			},
+			"nls": {
+				"Title": "414f3f2f49372b27293d2f044d2f4b4d04160116018f1500"
+			},
+			"_id": "Num_test_2_main|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 52,
+			"Title": "Numericable test 2",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "num_2_m",
+			"longName": "num_2_main",
+			"type": "BTV",
+			"id": "Num_test_2_main",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_20_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041612010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 20",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 20 version",
+			"id": "FAKE_20_V",
+			"Description": "fake clear channel 20 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 20,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_20_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/20.jpg"],
+			"active": true,
+			"shortName": "20v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_20_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_20_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f041612010b018f0a00"
+			},
+			"_id": "FAKE_20_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/20.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 20,
+			"Title": "Fake 20",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "20m",
+			"longName": "fake 20 main",
+			"type": "BTV",
+			"id": "FAKE_20_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_27_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041620010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 27",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 27 version",
+			"id": "FAKE_27_V",
+			"Description": "fake clear channel 27 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 27,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_27_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/27.jpg"],
+			"active": true,
+			"shortName": "27v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_27_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_27_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f041620010b018f0a00"
+			},
+			"_id": "FAKE_27_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/27.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 27,
+			"Title": "Fake 27",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "27m",
+			"longName": "fake 27 main",
+			"type": "BTV",
+			"id": "FAKE_27_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "socu4|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "2f4f49434b4543494d044b432b4f042b3d2f27490118011800"
+			},
+			"catchUpSupport": true,
+			"Title": "eurosport socu clear",
+			"NetworkLocation": "http://nmp.nagra.com/haorigin/hls/Live/Channel(EurosportClear)/index.m3u8",
+			"longName": "socu4v",
+			"id": "socu4v",
+			"Description": "Encrypted Channel Harmonic Encoder channel 60",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662", "LYS000060661"],
+			"tvChannel": 64,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "socu4",
+			"provider": "B1",
+			"deviceType": ["PC_CLEAR", "TABLET_CLEAR", "STB", "TABLET", "PHONE", "Default", "PC", "STB_CLEAR", "Super", "PHONE_CLEAR"],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/socu_clear.png"],
+			"active": true,
+			"shortName": "socu4v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000497387",
+			"_id": "socu4v|B1",
+			"startOverSupport": true
+		},
+		"t": "socu4v|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "2b3d2f2749044b432b4f042f4f49434b4543494d0118017b8f0c00"
+			},
+			"_id": "socu4|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 64,
+			"Title": "clear socu Eurosport",
+			"catchUpSupport": true,
+			"longName": "socu4",
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "socu4",
+			"startOverSupport": true,
+			"type": "BTV",
+			"id": "socu4",
+			"Description": "clear Eurosport socu channel from harmonic origin server"
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_14_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f04141a010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 14",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 14 version",
+			"id": "FAKE_14_V",
+			"Description": "fake clear channel 14 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662", "LYS000060661"],
+			"tvChannel": 14,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_14_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/14.jpg"],
+			"active": true,
+			"shortName": "14v",
+			"Rating": {
+				"code": "11",
+				"precedence": 11,
+				"Title": "Under 14"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_14_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_14_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "11",
+				"precedence": 11,
+				"Title": "Under 14"
+			},
+			"nls": {
+				"Title": "4d35374b042b352741412f3d04374b044f414b4f374d27293d2f04314349044f412d2f4904141a012b018f2a00"
+			},
+			"_id": "FAKE_14_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/14.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 14,
+			"Title": "This channel is unsuitable for under 14",
+			"catchUpSupport": false,
+			"longName": "fake 14 main",
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "14m",
+			"startOverSupport": false,
+			"type": "BTV",
+			"id": "FAKE_14_M",
+			"Description": "fake 14 channel"
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_23_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f041618010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 23",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 23 version",
+			"id": "FAKE_23_V",
+			"Description": "fake clear channel 23 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 23,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_23_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/23.jpg"],
+			"active": true,
+			"shortName": "23v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_23_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_23_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f041618010b018f0a00"
+			},
+			"_id": "FAKE_23_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/23.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 23,
+			"Title": "Fake 23",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "23m",
+			"longName": "fake 23 main",
+			"type": "BTV",
+			"id": "FAKE_23_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "VITRECHD|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "2b352741412f3d0418010d010d00"
+			},
+			"catchUpSupport": false,
+			"Title": "channel 3",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/03/index.m3u8",
+			"longName": "VITRECHD_V",
+			"id": "VITRECHD_V",
+			"Description": "clear envivio channel 03",
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 51,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "VITRECHD",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/BBC Entertainment.png"],
+			"active": true,
+			"shortName": "VITRECHD_V",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "VITRECHD_V|B1",
+			"startOverSupport": false
+		},
+		"t": "VITRECHD_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "2b352741412f3d041218043f2737410113011300"
+			},
+			"_id": "VITRECHD|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 51,
+			"Title": "channel 03 main",
+			"catchUpSupport": false,
+			"longName": "VITRECHD revista",
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "VITRECHD",
+			"startOverSupport": false,
+			"type": "BTV",
+			"id": "VITRECHD",
+			"Description": "envivio clear channel 03 main"
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_25_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f04161c010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 25",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 25 version",
+			"id": "FAKE_25_V",
+			"Description": "fake clear channel 25 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 25,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_25_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/25.jpg"],
+			"active": true,
+			"shortName": "25v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_25_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_25_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f04161c010b018f0a00"
+			},
+			"_id": "FAKE_25_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/25.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 25,
+			"Title": "Fake 25",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "25m",
+			"longName": "fake 25 main",
+			"type": "BTV",
+			"id": "FAKE_25_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "FAKE_26_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "31273b2f04161e010b018f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "Fake 26",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "fake 26 version",
+			"id": "FAKE_26_V",
+			"Description": "fake clear channel 26 version",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662"],
+			"tvChannel": 26,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "FAKE_26_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/26.jpg"],
+			"active": true,
+			"shortName": "26v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "FAKE_26_V|B1",
+			"startOverSupport": false
+		},
+		"t": "FAKE_26_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "31273b2f04161e010b018f0a00"
+			},
+			"_id": "FAKE_26_M|B1",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/fake/26.jpg"],
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 26,
+			"Title": "Fake 26",
+			"catchUpSupport": false,
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "26m",
+			"longName": "fake 26 main",
+			"type": "BTV",
+			"id": "FAKE_26_M",
+			"startOverSupport": false
+		},
+		"provider": "B1"
+	}, {
+		"e": "ENVIVIO_CH2_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "2b352741412f3d04121604512f494b3743410116011600"
+			},
+			"catchUpSupport": false,
+			"Title": "channel 02 version",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/02/index.m3u8",
+			"longName": "channel 02 version",
+			"id": "ENVIVIO_CH2_V",
+			"drmId": "1502",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662", "LYS000060661"],
+			"tvChannel": 2,
+			"regions": [],
+			"deviceType": [],
+			"mainChannelId": "ENVIVIO_CH2_M",
+			"provider": "B1",
+			"nPvrSupport": true,
+			"profileRef": "LYS000001072",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/al-jazeera.png"],
+			"drmInstanceName": "PRM_Nagra",
+			"active": true,
+			"shortName": "02v",
+			"Description": "Envivio encrypted channel 2",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"type": "BTV",
+			"_id": "ENVIVIO_CH2_V|B1",
+			"startOverSupport": false
+		},
+		"t": "ENVIVIO_CH2_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "2b352741412f3d0416043f2737410112011200"
+			},
+			"_id": "ENVIVIO_CH2_M|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 2,
+			"Title": "channel 2 main",
+			"catchUpSupport": false,
+			"longName": "channel 02 main",
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "02m",
+			"startOverSupport": false,
+			"type": "BTV",
+			"id": "ENVIVIO_CH2_M",
+			"Description": "envivio main channel 02 encrypted"
+		},
+		"provider": "B1"
+	}, {
+		"e": "WEB_CH09M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "2d53042f41333d374b35010e018f8f858f0a00"
+			},
+			"catchUpSupport": false,
+			"Title": "DW English",
+			"NetworkLocation": "http://www.metafilegenerator.de/DWelle/tv-europa/ios/master.m3u8",
+			"longName": "channel 09 version",
+			"id": "WEB_09V",
+			"Description": "Die Welle English",
+			"companyId": "B1",
+			"productRefs": ["LYS000060661"],
+			"tvChannel": 9,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "WEB_CH09M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/DW.png"],
+			"active": true,
+			"shortName": "09v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "WEB_09V|B1",
+			"startOverSupport": false
+		},
+		"t": "WEB_09V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "2d530106018f8f00"
+			},
+			"_id": "WEB_CH09M|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 9,
+			"Title": "DW",
+			"catchUpSupport": false,
+			"longName": "channel 09 main",
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "09m",
+			"startOverSupport": false,
+			"type": "BTV",
+			"id": "WEB_CH09M",
+			"Description": "DW (Deutsche Welle)"
+		},
+		"provider": "B1"
+	}, {
+		"e": "ENVIVIO_CH1_M|B1",
+		"locale": "en_GB",
+		"technical": {
+			"nls": {
+				"Title": "2b352741412f3d0414010d010d00"
+			},
+			"catchUpSupport": false,
+			"Title": "channel 1",
+			"NetworkLocation": "http://nmp.nagra.com/live-channels/01/index.m3u8",
+			"longName": "channel 01 version",
+			"id": "ENVIVIO_CH1_V",
+			"Description": "Clear Channel Envivio Encoder channel1",
+			"companyId": "B1",
+			"productRefs": ["LYS000060662", "LYS000060661"],
+			"tvChannel": 1,
+			"regions": [],
+			"nPvrSupport": true,
+			"mainChannelId": "ENVIVIO_CH1_M",
+			"provider": "B1",
+			"deviceType": [],
+			"type": "BTV",
+			"PromoImages": ["http://nmp.nagra.com/live-channels/promo-images/cnn.png"],
+			"active": true,
+			"shortName": "01v",
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"profileRef": "LYS000001072",
+			"_id": "ENVIVIO_CH1_V|B1",
+			"startOverSupport": false
+		},
+		"t": "ENVIVIO_CH1_V|B1",
+		"editorial": {
+			"Rating": {
+				"code": "1",
+				"precedence": 1,
+				"Title": "Small Child"
+			},
+			"nls": {
+				"Title": "2b352741412f3d0414043f2737410112011200"
+			},
+			"_id": "ENVIVIO_CH1_M|B1",
+			"guardTime": 0,
+			"companyId": "B1",
+			"productRefs": [],
+			"tvChannel": 1,
+			"Title": "channel 1 main",
+			"catchUpSupport": false,
+			"longName": "channel 01 main",
+			"nPvrSupport": true,
+			"provider": "B1",
+			"active": true,
+			"deviceType": [],
+			"shortName": "01m",
+			"startOverSupport": false,
+			"type": "BTV",
+			"id": "ENVIVIO_CH1_M",
+			"Description": "Envivio Clear channel 1"
+		},
+		"provider": "B1"
+	}],
+	"version": "20150408060047"
+}

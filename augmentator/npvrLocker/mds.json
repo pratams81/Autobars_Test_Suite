@@ -1,0 +1,35 @@
+{
+	"ROOT":"/dummy/DUMMY",
+	"REQUIRED_FUNCS":"./npvrLocker/mds.js",
+	"ROUTES":[{
+		"name":"Get the editorials",
+		"route":"/vod/editorials",
+		"function":"getVodEditorials",
+		"method":"GET",
+		"useRoot":"true"
+		},{
+		"name":"Get the nodes",
+		"route":"/vod/nodes",
+		"function":"getVodNodes",
+		"method":"GET",
+		"useRoot":"true"
+		},{
+		"name":"Get the series",
+		"route":"/vod/series",
+		"function":"getVodSeries",
+		"method":"GET",
+		"useRoot":"true"
+		},{
+		"name":"Get the channels",
+		"route":"/btv/services",
+		"file":"./npvrLocker/epg_services.json",
+		"method":"GET",
+		"useRoot":"true"
+		},{
+		"name":"Get the programmes",
+		"route":"/btv/programmes",
+		"function":"getBtvProgrammes",
+		"method":"GET",
+		"useRoot":"true"
+		}]
+}

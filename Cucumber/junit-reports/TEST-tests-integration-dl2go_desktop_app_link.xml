@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="DL2GO - Download to Go App for Desktop" skipped="0" tests="1" time="56.730597">
+<testcase classname="DL2GO - Download to Go App for Desktop" name="I should see the 'Get DL2GO App' enabled on mediacards when Anonymous Browsing is enabled and the user is logged into the app" time="56.730597">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

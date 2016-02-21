@@ -1,0 +1,71 @@
+ROUTE DEFINITION JSON:
+The JSON file structure for the routes should be like this (see latest.json for example):
+
+{
+//Server root path (used if doing load of MDS requests)
+	"ROOT":"/stable/metadata/delivery/B1",
+//Functions defined to handle the response data (see below for structure)
+	"REQUIRED_FUNCS":"./latest.js",
+//Array of routes:
+//Each route can have the following:
+//	route (required) - url to shiff and change data on
+//  function (optional if sending a file back) - what to do with the data
+//	file (optional) - JSON file to send back rather then ask server for data
+//  method (optional) - defaults to GET, otherwise only POST/PUT/DELETE is allowed
+//  useRoot (optional) - ROOT will get added to the start of the url if defined
+//  extras (optional) - string list of extra functions to use (some routes need these) can be any of "cors"/"jsonParser"/"urlencodedParser"
+	"ROUTES":[{
+		"route":"/stable/adaptor/hue-gateway/gateway/http/js/ottSessionService/messUp",
+		"file":"sessionSuccess.json",
+		"function":"amendSession",
+		"method":"POST"
+		},{
+		"route":"/stable/adaptor/hue-gateway/gateway/http/js/ottSessionService/setUp",
+		"file":"sessionSuccess.json",
+		"method":"POST"
+		},{
+		"route":"/btv/programmes", 
+		"function":"getProgrammes",
+		"useRoot":"true"
+		},{
+		"route":"/meh",
+		"function":"showMeh"	
+		},{
+		"route":"/stable/qsp/gateway/http/js/NmpExtendedService/initializeDevice",
+		"function":"forceLogon",
+		"method":"POST",
+		"extras":"jsonParser,urlencodedParser"
+		}
+	]
+}
+
+
+JS FUNCTION FILE STRUCTURE:
+As a normal JavaScript file (see latest.js for an example), those functions which should be exposed to the augmentator are added to module.exports like this:
+
+	module.exports.getProgrammes  = getProgrammes;
+
+STARTING UP
+The augmentator listens on port 3000 by default, this can be changed in the launch by putting the second argument in the commandline:
+
+	node augmentator.js 1234
+
+CHANGING THE ROUTES
+The routes can be changed by sending a filename to the "/fileconfig" route:
+
+	http://localhost:3000/fileconfig=newroutes.json
+
+This will tear down the existing routes and set up the new ones
+
+APPENDING ROUTES TO THE EXISTING ROUTES
+It's possible to add a set of new Routes to the existing Routes by using a url similar to:
+
+	http://localhost:3000/appendfileconfig=latest.json
+
+This is useful if there is a set of 'base' Routes and some add-on Routes to do a particular subset of functions.
+NB: Routes and functions defined in the new config will override the existing Routes or functions if they have the same name.
+
+CLEARING THE ROUTES
+All the imported routes can be cleared by calling the route:
+
+	http://localhost:3000/clearroutes

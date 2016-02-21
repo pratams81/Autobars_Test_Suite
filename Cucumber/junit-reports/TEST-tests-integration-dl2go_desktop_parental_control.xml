@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="DL2GO - Download parental controls" skipped="0" tests="1" time="82.691800">
+<testcase classname="DL2GO - Download parental controls" name="I should not be able to play/delete and asset for which I do not have permissions to when I am offline and when the parental controls lock is present without a password" time="82.691800">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

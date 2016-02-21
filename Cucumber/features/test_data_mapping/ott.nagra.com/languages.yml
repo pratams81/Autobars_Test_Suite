@@ -1,0 +1,78 @@
+English (UK):
+  featured:
+    title1 : 'HOT PICKS'
+    title2 : 'FAVOURITES'
+    title3 : 'BITRATES'
+  search:
+    no_results_text : 'Your search returned no results'
+  browse:
+    header_browse : 'ON DEMAND'
+    header_channels : 'LIVE'
+    custom_cat_feat : 'Featured'
+    custom_cat_fav : 'Favourites'
+    custom_cat_rv : 'Recently Viewed'
+  channels:
+    no_information : 'No programme informaion available'
+    moreInfo : 'More Info'
+    Favourites : 'Add Channel to Favourites'
+    Record : 'Record'
+    Remind : Set Reminder'
+    Collection : 'Add To Collection'
+  mediacard:
+    no_information : 'No programme informaion available'
+    more_info : 'More Info'
+    favourites : 'Add Channel to Favourites'
+    record : 'Record'
+    remind : 'Set Reminder'
+    collection : 'Add To Collection'
+    buy : 'Buy'
+    download : 'Download'
+  login:
+    welcome : 'Welcome'
+    instructions : 'Please enter your details'
+    username : 'username'
+    password : 'password'
+    device : 'device'
+    signin : 'Sign In'
+中文:
+  featured:
+    title1 : '热门精选'
+    title2 : '最爱'
+    title3 : '比特率'
+  search:
+    browse-no-results : '没有搜索结果'
+  login:
+    welcome : '欢迎使用'
+    instructions : '请输入详细信息'
+    username : '用户名'
+    password : '密码'
+    device : '设备'
+    signin :  '登录'
+  browse:
+    header_browse : '浏览'
+    header_channels : '频道'
+    custom_cat_feat : '特色的'
+    custom_cat_fav : '收藏'
+    custom_cat_rv : '最近观看'
+  channels:
+    no_information : 'No programme informaion available'
+    moreInfo : '更多信息'
+    Favourites : '添加到收藏夹'
+    Record : 'Record'
+    Remind : Set Reminder'
+    Collection : 'Add To Collection'
+  mediacard:
+    no_information : 'No programme informaion available'
+    more_info : '更多信息'
+    favourites : '添加到收藏夹'
+    record : 'Record'
+    remind : 'Set Reminder'
+    collection : 'Add To Collection'
+    buy : '购买'
+    download : 'Download'
+Español:
+    featured:
+    title1 : 'selecciones calientes'
+    title2 : 'favoritos'
+    title3 : 'velocidad de bits'
+

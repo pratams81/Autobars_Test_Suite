@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="Login" skipped="0" tests="3" time="20.979200">
+<testcase classname="Login" name="Successful Login (outline example : | ealing | japanesenods | Welcome Ealing Council |)" time="2.148123">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Login" name="Unsuccessful Login with invalid password (outline example : | ealing | japanesenods1 | Welcome to the Valuation Office Agency | Your username or password have not been recognised. Please verify them and try again. |)" time="9.739557">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Login" name="When I select &quot;Remember me&quot; then I should be able to login without a user name and password the second time" time="9.091520">
+  <failure message="failed When I select &quot;Remember me&quot; then I should be able to login without a user name and password the second time" type="failed">
+    <![CDATA[Scenario: When I select "Remember me" then I should be able to login without a user name and password the second time
+
+Given app is open and configured for system tests
+And login screen is displayed with title "Welcome to the Valuation Office Agency"
+When I enter "ealing" in username
+And I enter "japanesenods" in password
+And I click "Remember me" button on login screen
+And I click "Sign In" button on login screen
+Then "Welcome Ealing Council" screen is displayed
+When I click "logout" on welcome page
+Then login screen is displayed with title "Welcome to the Valuation Office Agency"
+When I click "Sign In" button on login screen
+Then "Welcome Ealing Council" screen is displayed
+
+Message:
+]]>
+    <![CDATA[Expected title Welcome Ealing Council and actual title is Welcome to the Valuation Office Agency (RuntimeError)
+./features/step_definitions/welcome_screen.rb.rb:3:in `/^"([^"]*)" screen is displayed$/'
+tests\system\login.feature:38:in `Then "Welcome Ealing Council" screen is displayed']]>
+  </failure>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

@@ -1,0 +1,380 @@
+# This data is for ott.nagra.com/stable - this is required so we can use the asset title to select items rather than the image-uri (this is not a complete data set)
+-
+  :title: "Friends - Season 1"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/friends-s01e01.jpg'
+-
+  :title: "Friends - Episode 1"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/friends-s01e01.jpg'
+-
+  :title: "Friends - Episode 1 (cover image)"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/friends-s01e01_cover.jpg'
+-
+  :title: "Friends - Episode 2"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/friends-s01e02.jpg'
+-
+  :title: "Friends - Episode 3"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/friends-s01e3.jpg'
+-
+  :title: 'A Few Good Men'
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/a-few-good-men_cover.jpg'
+-
+  :title: 'Cocktail'
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/cocktail_cover.jpg'
+-
+  :title: 'TINA'
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/TINA.jpg'
+-
+  :title: 'Shortsubs Item4'
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/SHORTEXPIRYITEM4_cover.jpg'
+-
+  :title: 'Shortsubs Item1'
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/SHORTEXPIRYITEM1_cover.jpg'
+-
+  :title: 'Shortsubs Item2'
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/SHORTEXPIRYITEM2_cover.jpg'
+-
+  :title: 'Shortsubs Item3'
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/SHORTEXPIRYITEM3_cover.jpg'
+-
+  :title: 'Shortsubs Item5'
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/SHORTEXPIRYITEM5_cover.jpg'
+-
+  :title: "Battlestar Galactica"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/battlestar-galactica_cover.jpg'
+-
+  :title: "Battlestar Galactica (landscape)"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/battlestar-galactica.jpg'
+-
+  :title: "Big Buck Bunny"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/big-buck-bunny_cover.jpg'
+-
+  :title: "California Dreamin"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/california-dreamin_cover.jpg'
+-
+  :title: "Charlie and the Chocolate Factory"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/charlie-and-the-chocolate-factory_cover.jpg'
+-
+  :title: "Charlie and the Chocolate Factory (landscape)"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/charlie-and-the-chocolate-factory.jpg'
+-
+  :title: "Garden State"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/garden-state_cover.jpg'
+-
+  :title: "Garden State (landscape)"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/garden-state.jpg'
+-
+  :title: "Jerry MaGuire"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/jerry-maguire_cover.jpg'
+-
+  :title: "Pirates of the Caribbean : The Curse of the Black Pearl"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/pirates-of-the-caribbean-one_cover.jpg'
+-
+  :title: "Pirates of the Caribbean : The Curse of the Black Pearl (landscape)"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/pirates-of-the-caribbean-one.jpg'
+-
+  :title: "Pirates of the Caribbean : Dead Man's Chest"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/pirates-of-the-caribbean-two_cover.jpg'
+-
+  :title: "Pirates of the Caribbean : On Stranger Tides"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/pirates-of-the-caribbean-three_cover.jpg'
+-
+  :title: "Pirates of the Caribbean : On Stranger Tides (landscape)"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/pirates-of-the-caribbean-three.jpg'
+-
+  :title: "Planet Earth: Series 01"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/planet-earth-jungle.jpg'
+-
+  :title: "Planet Earth - Fresh Water"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/planet-earth-fresh-water_cover.jpg'
+-
+  :title: "Planet Earth - From Pole to Pole"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/planet-earth-from-pole-to-pole_cover.jpg'
+-
+  :title: "Planet Earth - Mountains"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/planet-earth-mountains_cover.jpg'
+-
+  :title: "Planet Earth - Rainforest"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/planet-earth-rainforest_cover.jpg'
+-
+  :title: "Planet Earth - Rainforest (landscape)"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/planet-earth-rainforest.jpg'
+-
+  :title: "Planet Earth - The Jungle"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/planet-earth-jungle_cover.jpg'
+-
+  :title: "Planet Earth - The Jungle (landscape)"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/planet-earth-jungle.jpg'
+-
+  :title: "Planet Earth - The Movie"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/planet-earth_cover.jpg'
+-
+  :title: "James Bond:Quantum of Solace"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/quantum-of-solace_cover.jpg'
+-
+  :title: "Saturn"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/saturn_cover.jpg'
+-
+  :title: "Star Wars II : Attack Of The Clones"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/star-wars-attack-of-the-clones_cover.jpg'
+-
+  :title: "Star Wars III : Revenge of The Sith"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/star-wars-revenge_sith_cover.jpg'
+-
+  :title: "The Other Boleyn Girl"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/the-other-boleyn-girl_cover.jpg'
+-
+  :title: "Top Gun"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/top-gun_cover.jpg'
+-
+  :title: "V for Vendetta"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/v-for-vendetta_cover.jpg'
+-
+  :title: "WallaceGromit: The Curse of the Were-Rabbit"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/Wallace_cover_cover.jpg'
+-
+  :title: "Where the Heart Is"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/where-the-heart-is_cover.jpg'
+-
+  :title: "Elephants Dream"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/elephants-dream_cover.jpg'
+-
+  :title: "Sita Sings the Blues"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/sita-sings-the-blues_cover.jpg'
+-
+  :title: "TEST"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/test/big-buck-bunny_cover.jpg'
+-
+  :title: "Tears of Steel"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/tears-of-steel_cover.jpg'
+-
+  :title: "Item 1 with Zero Price"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/ZEROPRICE_1_cover.jpg'
+-
+  :title: "Item 1 with Zero Price (landscape)"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/ZEROPRICE_1.jpg'
+-
+  :title: "Item 2 with Zero Price"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/ZEROPRICE_2_cover.jpg'
+-
+  :title: "Item 3 with Zero Price"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/ZEROPRICE_3_cover.jpg'
+-
+  :title: "Item 4 with Zero Price"
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/ZEROPRICE_4_cover.jpg'
+-
+  :title: "Eurosport event"
+  :image_uri: 'http://nmp.nagra.com/live-channels/promo-images/Eurosport.png'
+-
+  :title: 'Planet Earth : The Jungle (1 Mbps)'
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/bitrates/planet-earth-jungle_1Mbps_cover.jpg'
+-
+  :title: 'Planet Earth : The Jungle (300 Kbps)'
+  :image_uri: 'http://ott.nagra.com/stable/imagepath/bitrates/planet-earth-jungle_300Kbps_cover.jpg'
+-
+  :title: '3.5 Mbps clear'
+  :image_uri: "http://ott.nagra.com/stable/imagepath/bitrates/planet-earth-jungle-clear_3.5Mbps_cover.jpg"
+-
+  :title: '7 Mbps clear'
+  :image_uri: "http://ott.nagra.com/stable/imagepath/bitrates/planet-earth-jungle-clear_7Mbps.jpg"
+-
+  :title: '3.5 Mbps'
+  :image_uri: "http://ott.nagra.com/stable/imagepath/bitrates/tears-of-steel_3.5Mbps_cover.jpg"
+-
+  :title: '2.5 Mbps'
+  :image_uri: "http://ott.nagra.com/stable/imagepath/bitrates/tears-of-steel_2.5Mbps_cover.jpg"
+-
+  :title: '96 Kbps'
+  :image_uri: "http://ott.nagra.com/stable/imagepath/bitrates/tears-of-steel_96Kbps.jpg"
+-
+  :title: '96 Kbps clear'
+  :image_uri: "http://ott.nagra.com/stable/imagepath/bitrates/planet-earth-jungle-clear_96Kbps_cover.jpg"
+-
+  :title: 'Sintel'
+  :image_uri: "http://ott.nagra.com/stable/imagepath/Sintel_cover.jpg"
+-
+  :title: 'SOCU'
+  :image_uri: "http://nmp.nagra.com/live-channels/promo-images/socu.png"
+
+  # The yml file is modified to add channel related data (SP)
+-
+  :channel_name: 'BBC Entertainment (cwmciwla)'
+  :channel_id: 'ch251543837-293EA6543557BB83A012290F27E1E7CB'
+  :channel_logo: 'http://cdn.nmp.nagra.com.s3.amazonaws.com/image/bbcentertainment.png'
+-
+  :channel_name: 'Arte HD (cwmciwla)'
+  :channel_id: 'ch251543860-7DA05B1EE4B6D115A2DADB17D200DEFD'
+  :channel_logo: 'http://cdn.nmp.nagra.com.s3.amazonaws.com/image/artehd.png'
+-
+  :channel_name: 'Rts UN'
+  :channel_id: 'ch260974800-DB67485C380DF9F4E4D101BB6D6E581B'
+  :channel_logo: 'http://cdn.nmp.nagra.com.s3.amazonaws.com/image/rtsun.png'
+-
+  :channel_name: 'Rts Deux'
+  :channel_id: 'ch260974830-9568E62E9BFAA2DDA500150D59691876'
+  :channel_logo: 'http://cdn.nmp.nagra.com.s3.amazonaws.com/image/rtsdeux.png'
+-
+  :channel_name: 'M6'
+  :channel_id: 'ch251543939-356F3F74FCF34590BF85D097FDE35605'
+  :channel_logo: 'http://cdn.nmp.nagra.com.s3.amazonaws.com/image/M6.png'
+-
+  :channel_name: 'Euronews (cwmciwla)'
+  :channel_id: 'ch251533250-812AD47A3D5F64F2671CB2BFBA08022B'
+  :channel_logo: 'http://cdn.nmp.nagra.com.s3.amazonaws.com/image/euronews.png'
+-
+  :channel_name: 'Eurosport (cwmciwla)'
+  :channel_id: 'ch251533255-28881588C81353CA180764D5BFA8DFBA'
+  :channel_logo: 'http://cdn.nmp.nagra.com.s3.amazonaws.com/image/eurosport.png'
+-
+  :channel_name: '5'
+  :channel_id: 'ch266687420-4FBECEF4A18EB970520A85E22EBA78D0'
+  :channel_logo: 'http://cdn.nmp.nagra.com.s3.amazonaws.com/image/france5.png'
+-
+  :channel_name: 'HD1'
+  :channel_id: 'ch251540452-97768C936F5E27ED470F0E94ED3D104E'
+  :channel_logo: 'http://cdn.nmp.nagra.com.s3.amazonaws.com/image/hd1.png'
+-
+  :channel_name: 'CNN'
+  :channel_id: 'chENVIVIO_CH1_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/cnn.png'
+-
+  :channel_name: 'Al Jazeera'
+  :channel_id: 'chENVIVIO_CH2_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/al-jazeera.png'
+-
+  :channel_name: 'BBC Entertainment'
+  :channel_id: 'chENVIVIO_CH3_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/BBC%20Entertainment.png'
+-
+  :channel_name: 'Arte HD'
+  :channel_id: 'chENVIVIO_CH4_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/arte HD.png'
+-
+  :channel_name: 'euronews'
+  :channel_id: 'chENVIVIO_CH5_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/euronews.png'
+-
+  :channel_name: 'fake'
+  :channel_id: 'chENVIVIO_CH6_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake.png'
+-
+  :channel_name: 'BBC World'
+  :channel_id: 'chENVIVIO_CH7_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/BBC-WORLD.png'
+-
+  :channel_name: 'NASA'
+  :channel_id: 'chWEB_08M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/NASA.png'
+-
+  :channel_name: 'DW'
+  :channel_id: 'chWEB_CH09M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/DW.png'
+-
+  :channel_name: '10'
+  :channel_id: 'chFAKE_10_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/10.jpg'
+-
+  :channel_name: '11'
+  :channel_id: 'chFAKE_11_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/11.jpg'
+-
+  :channel_name: '12'
+  :channel_id: 'chFAKE_12_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/12.jpg'
+-
+  :channel_name: '13'
+  :channel_id: 'chFAKE_13_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/13.jpg'
+-
+  :channel_name: '14'
+  :channel_id: 'chFAKE_14_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/14.jpg'
+-
+  :channel_name: '15'
+  :channel_id: 'chFAKE_15_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/15.jpg'
+-
+  :channel_name: '16'
+  :channel_id: 'chFAKE_16_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/16.jpg'
+-
+  :channel_name: '17'
+  :channel_id: 'chFAKE_17_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/17.jpg'
+-
+  :channel_name: '18'
+  :channel_id: 'chFAKE_18_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/18.jpg'
+-
+  :channel_name: '19'
+  :channel_id: 'chFAKE_19_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/19.jpg'
+-
+  :channel_name: '20'
+  :channel_id: 'chFAKE_20_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/20.jpg'
+-
+  :channel_name: '21'
+  :channel_id: 'chFAKE_21_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/21.jpg'
+-
+  :channel_name: '22'
+  :channel_id: 'chFAKE_22_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/22.jpg'
+-
+  :channel_name: '23'
+  :channel_id: 'chFAKE_23_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/23.jpg'
+-
+  :channel_name: '24'
+  :channel_id: 'chFAKE_24_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/24.jpg'
+-
+  :channel_name: '25'
+  :channel_id: 'chFAKE_25_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/25.jpg'
+-
+  :channel_name: '26'
+  :channel_id: 'chFAKE_26_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/26.jpg'
+-
+  :channel_name: '27'
+  :channel_id: 'chFAKE_27_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/27.jpg'
+-
+  :channel_name: '28'
+  :channel_id: 'chFAKE_28_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/28.jpg'
+-
+  :channel_name: '29'
+  :channel_id: 'chFAKE_29_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/29.jpg'
+-
+  :channel_name: '30'
+  :channel_id: 'chFAKE_30_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/30.jpg'
+-
+  :channel_name: '31'
+  :channel_id: 'chFAKE_31_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/31.jpg'
+-
+  :channel_name: '32'
+  :channel_id: 'chFAKE_32_M'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/fake/32.jpg'
+-
+  :channel_name: 'channel 03 main'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/BBC%20Entertainment.png'
+-
+  :channel_name: 'channel 04 main'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/arte%20HD.png'
+-
+  :channel_name: 'SOCU3'
+  :channel_id: 'chsocu3'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/socu.png'
+-
+  :channel_name: 'SOCU4'
+  :channel_id: 'chsocu4'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/socu_clear.png'
+-
+  :channel_name: 'Eurosport'
+  :channel_id: 'cheurosport'
+  :channel_logo: 'http://nmp.nagra.com/live-channels/promo-images/Eurosport.png'

@@ -1,0 +1,13 @@
+LOAD these routes by using:
+http://localhost:3000/appendfileconfig=deviceContext/deviceContext.json
+
+The test uses the technical.deviceType filter to detect whether the flag has been set in JSFW and returns an MDS asset with an asset title reflecting the filter type. The test checks the asset title to verify the correct asset is returned for the correct filter type.
+
+Editorial filter example:
+filter=
+{"technical.id":"B1_TEARSOFSTEEL_CLEAR_CONT_600KBPS","technical.deviceType":{"$in":["PC"]},"isVisible":true,"locale":"en_GB"}
+&limit=9999
+&fields=[]
+&sort=[["title",1]]
+
+Setting and getting of device type and devicetypelist is handled in deviceContext.js

@@ -1,0 +1,114 @@
+# Please see https://github.com/bbatsov/rubocop/blob/master/config/enabled.yml
+# This provides descriptions of most of the settings and in depth information on them
+# Rationale for disabling/enabling individual styles/lints
+
+AllCops:
+  Exclude:
+    - 'Rakefile'
+
+LineLength:
+  Max: 200
+
+MethodLength:
+  Max: 45
+
+ClassLength:
+  Max: 300
+
+##################################################
+# Linting rules disabled for ease of programming #
+##################################################
+
+# Would make step definitions less readable, has yet to cause me an issue
+Lint/AmbiguousRegexpLiteral:
+  Enabled: false
+
+# How is this a style thing?
+Style/SignalException:
+  Enabled: false
+
+#####################################
+# Cosmetic crap we don't care about #
+#####################################
+
+# No comment
+Style/SelfAssignment:
+  Enabled: false
+
+# No comment
+Style/Not:
+  Enabled: false
+
+# Over-paren if you like
+Style/ParenthesesAroundCondition:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+# Don't worry about lack of interpolation in strings
+Style/StringLiteralsInInterpolation:
+  Enabled: false
+
+# Boohoo. Switch on when we've got a decent baseline
+Style/TrailingBlankLines:
+  Enabled: false
+
+# Not too interested in whether you put trailing commas or not
+# This isn't 1999 IE-compatible javascript we're writing
+Style/TrailingComma:
+  Enabled: false
+
+# I think it's easier to read
+Style/RedundantReturn:
+  Enabled: false
+
+# Who cares!
+#Who cares!
+Style/LeadingCommentSpace:
+  Enabled: false
+
+Style/SpaceAroundEqualsInParameterDefault:
+  Enabled: false
+
+# Sounds boring
+Style/IfUnlessModifier:
+  Enabled: false
+
+# Live free
+Style/NegatedIf:
+  Enabled: false
+
+# THE GREAT DEBATE: And vs &&
+Style/AndOr:
+  Enabled: false
+
+# What's one or two bytes between friends?
+Style/EmptyLines:
+  Enabled: false
+
+# I mostly just disabled this one because I don't know what it does
+Style/GuardClause:
+  Enabled: false
+
+# What are we, anti-lisp now?
+Style/DefWithParentheses:
+  Enabled: false
+
+# Sometimes I like to be negative
+Style/NegatedWhile:
+  Enabled: false
+
+# Mildly interesting.
+# TODO: Review in the future
+Style/Next:
+  Enabled: false
+
+# For, each, for each...
+# Do whatever you want, just be careful where you point your scope!
+Style/For:
+  Enabled: false
+
+# I ACTUALLY CARE ABOUT THIS ONE!
+Style/IndentationWidth:
+  Enabled: true

@@ -1,0 +1,27 @@
+{
+	"ROOT":"/stable/metadata/delivery/B1",
+	"REQUIRED_FUNCS":"./latest.js",
+	"ROUTES":[{
+		"route":"/stable/adaptor/hue-gateway/gateway/http/js/ottSessionService/messUp",
+		"file":"sessionSuccess.json",
+		"function":"amendSession",
+		"method":"POST"
+		},{
+		"route":"/stable/adaptor/hue-gateway/gateway/http/js/ottSessionService/setUp",
+		"file":"sessionSuccess.json",
+		"method":"POST"
+		},{
+		"route":"/btv/programmes", 
+		"function":"getProgrammes",
+		"useRoot":"true"
+		},{
+		"route":"/meh",
+		"function":"showMeh"	
+		},{
+		"route":"/stable/qsp/gateway/http/js/NmpExtendedService/initializeDevice",
+		"function":"forceLogon",
+		"method":"POST",
+		"extras":"jsonParser,urlencodedParser"
+		}
+	]
+}

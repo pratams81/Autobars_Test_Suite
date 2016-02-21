@@ -1,0 +1,58 @@
+{
+	"ROOT":"/dummy",
+	"REQUIRED_FUNCS":"./npvrLocker/sdp.js",
+	"ROUTES":[{
+		"name":"Change the Account details",
+		"route":"/VisitorService/getGroup",
+		"function":"getVisitor",
+		"method":"POST",
+		"useRoot":"true"
+		},{
+		"name":"Get the account",
+		"route":"/accountService/getByUID",
+		"function":"getByUID",
+		"method":"POST",
+		"useRoot":"true"
+		},{
+		"name":"sign on by user",
+		"route":"/signonService/signonByUser",
+		"function":"signOnByUser",
+		"method":"POST",
+		"useRoot":"true"
+		},{
+		"name":"Get the account",
+		"route":"/contextService/getCurrentContext",
+		"function":"getCurrentContext",
+		"method":"POST",
+		"useRoot":"true"
+		},{
+		"name":"Get the account",
+		"route":"/preferenceService/getList",
+		"function":"prefService",
+		"method":"POST",
+		"useRoot":"true"
+		},{
+		"name":"Get the account",
+		"route":"/ratingService/getList",
+		"function":"ratingService",
+		"method":"POST",
+		"useRoot":"true"
+		},{
+		"name":"Get the acl",
+		"route":"/adaptor/hue-gateway/gateway/http/js/acquiredContentListService/getByAccountUIDAndItemType",
+		"function":"getACLByType",
+		"method":"GET"
+		},{
+		"name":"Get the acl part 2?",
+		"route":"/adaptor/hue-gateway/gateway/http/js/acquiredContentListService/getByAccountUID",
+		"function":"getACL",
+		"method":"GET"
+		},{
+		"name":"Get the bookmarks",
+		"route":"/hue-gateway/gateway/http/js/bookmarkService/getBookmarkForOrigin",
+		"function":"getBookmark",
+		"method":"POST"
+		}]
+
+
+}

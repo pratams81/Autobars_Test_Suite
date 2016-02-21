@@ -1,0 +1,93 @@
+{
+	"ROOT":"/api",
+	"REQUIRED_FUNCS":"./npvrLocker/NPVRLocker.js",
+	"ROUTES":[{
+		"name":"get all recordings (also should handle sort/filter in query?)",
+		"route":"/recordingrequests/LAB",
+		"function":"getAllRecordings",
+		"method":"GET",
+		"useRoot":"true"
+		},{
+		"name":"get single recording",
+		"route":"/recordingrequests/LAB/:recordingId",
+		"function":"getSingleRecording",
+		"method":"GET",
+		"useRoot":"true"
+		},{
+		"name":"create single recording",
+		"route":"/recordingrequests/LAB",
+		"function":"createRecording",
+		"method":"POST",
+		"useRoot":"true",
+		"extras":"cors,jsonParser,urlencodedParser"
+		},{
+		"name":"Protect single recording",
+		"route":"/recordingrequests/LAB",
+		"function":"protectSingleRecording",
+		"method":"PUT",
+		"useRoot":"true",
+		"extras":"cors,jsonParser,urlencodedParser"
+		},{
+		"name":"options request",
+		"route":"/*",
+		"function":"sendOptionsHeader",
+		"method":"OPTIONS",
+		"useRoot":"true"
+		},{
+		"name":"delete single recording",
+		"route":"/recordingrequests/LAB/:recordingId",
+		"function":"deleteSingleRecording",
+		"method":"DELETE",
+		"useRoot":"true"
+		},{
+		"name":"quota usage",
+		"route":"/quotausage/LAB", 
+		"function":"getQuota",
+		"method":"GET",
+		"useRoot":"true"
+		},{
+		"name":"get series recordings (should handle sort/filter in query)",
+		"route":"/seriesrecording/LAB",
+		"function":"getAllSeriesRecordings",
+		"method":"GET",
+		"useRoot":"true"
+		},{
+		"name":"cancel Series Delete Unrecorded Episodes",
+		"route":"/seriesrecording/LAB/:seriesId/cancelSeriesDeleteUnrecordedEpisodes",
+		"function":"cancelSeriesRecording",
+		"method":"DELETE",
+		"useRoot":"true"
+		},{
+		"name":"delete Recorded Episodes",
+		"route":"/seriesrecording/LAB/:seriesId/deleteRecordedEpisodes",
+		"function":"deleteRecordedSeriesRecording",
+		"method":"PUT",
+		"useRoot":"true"
+		},{
+		"name":"delete Series Delete All Episodes",
+		"route":"/seriesrecording/LAB/:seriesId/deleteSeriesDeleteAllEpisodes",
+		"function":"deleteAllSeriesRecording",
+		"method":"DELETE",
+		"useRoot":"true"
+		},{
+		"name":"Change the state of a Recording",
+		"route":"/changerecordingstate",
+		"function":"changeState",
+		"method":"GET"
+		},{
+		"name":"Clear all recordings",
+		"route":"/clearRecordings",
+		"function":"clearAllRecordings",
+		"method":"GET"
+		},{
+		"name":"Save all recordings",
+		"route":"/saveRecordings",
+		"function":"writeCurrentRecordingsToJson",
+		"method":"GET"
+		},{
+		"name":"Read recordings from JSON",
+		"route":"/readRecordings",
+		"function":"readRecordingsFromJson",
+		"method":"GET"
+		}]
+}

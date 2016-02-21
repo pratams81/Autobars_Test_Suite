@@ -1,0 +1,14 @@
+html_report: --format pretty --format html --out=results.html
+json_report: --format pretty --format json --out=results.json
+junit_report: --format junit --out junit-reports
+junit_report_parallel: --format junit --out junit-reports/runner<%= ENV['TEST_ENV_NUMBER'] %>
+
+android-phone: DEVICE_TYPE=Android APP_TYPE=Phone --tags ~@tablet_only --tags ~@desktop_only --tags ~@desktop_and_tablet_only
+android-tablet: DEVICE_TYPE=Android APP_TYPE=Tablet --tags ~@phone_only --tags ~@desktop_only  --tags ~@phone_and_desktop_only
+
+iOS-phone: DEVICE_TYPE=iOS APP_TYPE=Phone --tags ~@tablet_only --tags ~@desktop_only
+iOS-tablet: DEVICE_TYPE=iOS APP_TYPE=Tablet --tags ~@phone_only --tags ~@desktop_only
+
+desktop: APP_TYPE=Desktop --tags ~@phone_only --tags ~@tablet_only --tags ~@phone_and_tablet_only
+phone: APP_TYPE=Phone --tags ~@tablet_only --tags ~@desktop_only --tags ~@desktop_and_tablet_only
+tablet: APP_TYPE=Tablet --tags ~@phone_only --tags ~@desktop_only

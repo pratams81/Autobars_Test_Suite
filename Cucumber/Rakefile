@@ -1,0 +1,25 @@
+require 'rubygems'
+require 'cucumber'
+require 'cucumber/rake/task'
+
+#####################################################################
+######################## Run in Jenkins #############################
+#####################################################################
+
+Cucumber::Rake::Task.new(:playlist) do |t|
+  opts = "-r features " +
+# Feature file(s) you want to execute
+      "tests/system/login.feature " +
+# Target URL, example is zotest
+# Ensure you are running against the 'test' configuration
+      "AUGMENTATOR_PORT=3000 " +
+      "APP_URL=https://autobars-alpha.herokuapp.com/login " +
+      "TAKE_SCREENSHOTS=False " +
+      "--profile json_report --profile junit_report --profile html_report " +
+# Or chrome-tablet or chrome-phone
+      "--profile desktop DEVICE_TYPE=Firefox " +
+      "--tags ~@disabled --tags ~@nmpe2e2"
+  t.cucumber_opts = opts
+end
+
+

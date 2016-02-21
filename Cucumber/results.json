@@ -1,0 +1,432 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "description": "As a User\nI want to login to Autobars\nWhen I enter an invalid password then I should be prompted with an error message",
+    "id": "login",
+    "uri": "tests\\system\\login.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "Start app",
+        "line": 6,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "app is open and configured for system tests",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 31,
+                  "val": "system"
+                }
+              ],
+              "location": "features/step_definitions/utility.rb:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7228414000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "login screen is displayed with title \"Welcome to the Valuation Office Agency\"",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 38,
+                  "val": "Welcome to the Valuation Office Agency"
+                }
+              ],
+              "location": "features/step_definitions/login.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106006000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Successful Login",
+        "line": 11,
+        "description": "",
+        "id": "login;successful-login",
+        "type": "scenario_outline",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I login with \"<username>\" and \"<password>\"",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "ealing"
+                },
+                {
+                  "offset": 27,
+                  "val": "japanesenods"
+                }
+              ],
+              "location": "features/step_definitions/login.rb:139"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "\"<screen_name>\" screen is displayed",
+            "line": 13,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 1,
+                  "val": "Welcome Ealing Council"
+                }
+              ],
+              "location": "features/step_definitions/welcome_screen.rb.rb:1"
+            }
+          }
+        ],
+        "examples": [
+          {
+            "keyword": "Examples",
+            "name": "",
+            "line": 14,
+            "description": "",
+            "id": "login;successful-login;",
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "screen_name"
+                ],
+                "line": 15,
+                "id": "login;successful-login;;1"
+              },
+              {
+                "cells": [
+                  "ealing",
+                  "japanesenods",
+                  "Welcome Ealing Council"
+                ],
+                "line": 16,
+                "id": "login;successful-login;;2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Unsuccessful Login with invalid password",
+        "line": 19,
+        "description": "",
+        "id": "login;unsuccessful-login-with-invalid-password",
+        "type": "scenario_outline",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I login with \"<username>\" and \"<password>\"",
+            "line": 20,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "ealing"
+                },
+                {
+                  "offset": 27,
+                  "val": "japanesenods1"
+                }
+              ],
+              "location": "features/step_definitions/login.rb:139"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "login screen is displayed with title \"<title>\"",
+            "line": 21,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 38,
+                  "val": "Welcome to the Valuation Office Agency"
+                }
+              ],
+              "location": "features/step_definitions/login.rb:3"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "login should be failed",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/login.rb:147"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "\"<error>\" error message is displayed on the login screen",
+            "line": 23,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 1,
+                  "val": "Your username or password have not been recognised. Please verify them and try again."
+                }
+              ],
+              "location": "features/step_definitions/login.rb:143"
+            }
+          }
+        ],
+        "examples": [
+          {
+            "keyword": "Examples",
+            "name": "",
+            "line": 24,
+            "description": "",
+            "id": "login;unsuccessful-login-with-invalid-password;",
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "title",
+                  "error"
+                ],
+                "line": 25,
+                "id": "login;unsuccessful-login-with-invalid-password;;1"
+              },
+              {
+                "cells": [
+                  "ealing",
+                  "japanesenods1",
+                  "Welcome to the Valuation Office Agency",
+                  "Your username or password have not been recognised. Please verify them and try again."
+                ],
+                "line": 26,
+                "id": "login;unsuccessful-login-with-invalid-password;;2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "When I select \"Remember me\" then I should be able to login without a user name and password the second time",
+        "line": 29,
+        "description": "",
+        "id": "login;when-i-select-\"remember-me\"-then-i-should-be-able-to-login-without-a-user-name-and-password-the-second-time",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "app is open and configured for system tests",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 31,
+                  "val": "system"
+                }
+              ],
+              "location": "features/step_definitions/utility.rb:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7146409000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "login screen is displayed with title \"Welcome to the Valuation Office Agency\"",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 38,
+                  "val": "Welcome to the Valuation Office Agency"
+                }
+              ],
+              "location": "features/step_definitions/login.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113006000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter \"ealing\" in username",
+            "line": 30,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 9,
+                  "val": "ealing"
+                }
+              ],
+              "location": "features/step_definitions/login.rb:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157009000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter \"japanesenods\" in password",
+            "line": 31,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 9,
+                  "val": "japanesenods"
+                }
+              ],
+              "location": "features/step_definitions/login.rb:156"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147009000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click \"Remember me\" button on login screen",
+            "line": 32,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 9,
+                  "val": "Remember me"
+                }
+              ],
+              "location": "features/step_definitions/login.rb:161"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74004000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click \"Sign In\" button on login screen",
+            "line": 33,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 9,
+                  "val": "Sign In"
+                }
+              ],
+              "location": "features/step_definitions/login.rb:161"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526030000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "\"Welcome Ealing Council\" screen is displayed",
+            "line": 34,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 1,
+                  "val": "Welcome Ealing Council"
+                }
+              ],
+              "location": "features/step_definitions/welcome_screen.rb.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35002000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click \"logout\" on welcome page",
+            "line": 35,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 9,
+                  "val": "logout"
+                }
+              ],
+              "location": "features/step_definitions/welcome_screen.rb.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 445025000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "login screen is displayed with title \"Welcome to the Valuation Office Agency\"",
+            "line": 36,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 38,
+                  "val": "Welcome to the Valuation Office Agency"
+                }
+              ],
+              "location": "features/step_definitions/login.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35002000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click \"Sign In\" button on login screen",
+            "line": 37,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 9,
+                  "val": "Sign In"
+                }
+              ],
+              "location": "features/step_definitions/login.rb:161"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 354021000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "\"Welcome Ealing Council\" screen is displayed",
+            "line": 38,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 1,
+                  "val": "Welcome Ealing Council"
+                }
+              ],
+              "location": "features/step_definitions/welcome_screen.rb.rb:1"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Expected title Welcome Ealing Council and actual title is Welcome to the Valuation Office Agency (RuntimeError)\n./features/step_definitions/welcome_screen.rb.rb:3:in `/^\"([^\"]*)\" screen is displayed$/'\ntests\\system\\login.feature:38:in `Then \"Welcome Ealing Council\" screen is displayed'",
+              "duration": 51002000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

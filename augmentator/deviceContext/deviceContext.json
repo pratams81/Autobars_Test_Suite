@@ -1,0 +1,20 @@
+{
+  "ROOT":"/stable/metadata/delivery/B1",
+  "REQUIRED_FUNCS": "./deviceContext/deviceContext.js",
+  "ROUTES": [
+    {
+      "name": "Augment getCurrentContext with DeviceType",
+      "route": "/contextService/getCurrentContext",
+      "function": "getCurrentContext",
+      "method": "POST",
+      "useRoot": "true"
+    },
+    {
+      "name":"Get the editorials",
+      "route":"/vod/editorials",
+      "function":"getVodEditorials",
+      "method":"GET",
+      "useRoot":"true"
+    }
+  ]
+}

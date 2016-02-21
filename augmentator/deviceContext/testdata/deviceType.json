@@ -1,0 +1,161 @@
+{
+"total_records": 1,
+"version": "20150424083048",
+"editorials": [
+  {
+  "nls": {},
+  "BestSalesIndex": 100,
+  "ShortTitle": "MDS_deviceType_filter",
+  "Title": "MDS_deviceType_filter",
+  "duration": 1800,
+  "technicals": [
+    {
+      "nls": {
+        "Title": "29373304294f2b3b04294f4141570412241a0116018f838f828f0c00"
+      },
+      "BestSalesIndex": 100,
+      "ShortTitle": "MDS_deviceType_filter",
+      "Title": "MDS_deviceType_filter",
+      "duration": 1800,
+      "id": "B1_100ASSETS_094_CONT_4",
+      "Description": "Big Buck wakes up in his rabbit hole, only to be pestered by three critters, Gimera, Frank and Rinky. When Gimera kills a butterfly, Buck decides on a payback Predator-style",
+      "title": "Asset_094_TABLET",
+      "media": {
+        "AV_PlaylistName": {
+          "frameDuration": 0,
+          "format": "AV_PlaylistName",
+          "id": "B1_100ASSETS_094_CONT_4",
+          "fileName": "big-buck-bunny-sample_B1_100ASSETS_CONT_4_20131024_144716/index.m3u8"
+        }
+      },
+      "Producers": [
+        "Ton Roosendaal"
+      ],
+      "deviceType": [],
+      "provider": "B1",
+      "profileRef": "LYS000004445",
+      "Categories": [
+        "Comedy",
+        "Kids-Family"
+      ],
+      "Definition": "HD",
+      "PromoImages": [
+        "bbb/big-buck-bunny-094.jpg"
+      ],
+      "Language": "eng",
+      "Countries": "US",
+      "mainContentRef": "B1_100ASSETS_094",
+      "Synopsis": "Big Buck wakes up in his rabbit hole, only to be pestered by three critters, Gimera, Frank and Rinky. When Gimera kills a butterfly, Buck decides on a payback Predator-style",
+      "Rating": {
+        "code": "4",
+        "precedence": 4,
+        "Title": "Under 7"
+      },
+      "companyId": "B1",
+      "Directors": [
+        "Sacha Goedegebure"
+      ],
+      "products": [
+        {
+          "startPurchase": 1325376000,
+          "endValidity": 1482105600,
+          "platformRef": "LYS000000107",
+          "ordering": false,
+          "voditems": [
+            {
+              "node": "",
+              "title": "Asset_094_TABLET",
+              "nodeRefs": [
+                "B1_100ASSETS"
+              ],
+              "contentRef": "B1_100ASSETS_094_CONT_4",
+              "period": {
+                "duration": "282960000",
+                "start": 1325376000,
+                "end": 1608336000
+              },
+              "deviceType": [],
+              "provider": "B1",
+              "_id": "B1_100ASSETS_094_VOD_4",
+              "id": "B1_100ASSETS_094_VOD_4"
+            },
+            {
+              "node": "B1_100ASSETS",
+              "title": "Asset_094_TABLET",
+              "nodeRefs": [
+                "B1_100ASSETS"
+              ],
+              "contentRef": "B1_100ASSETS_094_CONT_4",
+              "period": {
+                "duration": "282960000",
+                "start": 1325376000,
+                "end": 1608336000
+              },
+              "deviceType": [],
+              "provider": "B1",
+              "DisplayPriority": 0,
+              "_id": "B1_100ASSETS_094_VOD_4",
+              "id": "B1_100ASSETS_094_VOD_4"
+            }
+          ],
+          "price": {
+            "startPurchase": 1325376000,
+            "currency": "EUR",
+            "endPurchase": 1482105600,
+            "value": 2.99
+          },
+          "startValidity": 1325376000,
+          "endPurchase": 1482105600,
+          "impulsive": true,
+          "regions": [
+            "ACCESSPOINT1"
+          ],
+          "rentalDuration": "86400",
+          "TitleForProduct": "Asset_094_TABLET",
+          "deviceType": [],
+          "provider": "B1",
+          "title": "Asset_094_TABLET",
+          "_id": "B1_100ASSETS_094_PROD_4",
+          "type": "single",
+          "id": "B1_100ASSETS_094_PROD_4"
+        }
+      ],
+      "Year": 2006,
+      "_id": "B1_100ASSETS_094_CONT_4"
+    }
+  ],
+  "id": "B1_100ASSETS_094",
+  "Description": "Big Buck wakes up in his rabbit hole, only to be pestered by three critters, Gimera, Frank and Rinky. When Gimera kills a butterfly, Buck decides on a payback Predator-style",
+  "title": "Asset_094_000_HLS",
+  "media": {},
+  "Producers": [
+    "Ton Roosendaal"
+  ],
+  "deviceType": ["DEVICETYPE"],
+  "provider": "B1",
+  "Categories": [
+    "Comedy",
+    "Kids-Family"
+  ],
+  "Definition": "HD",
+  "PromoImages": [
+    "bbb/big-buck-bunny-094.jpg"
+  ],
+  "Language": "eng",
+  "Countries": "US",
+  "Synopsis": "Big Buck wakes up in his rabbit hole, only to be pestered by three critters, Gimera, Frank and Rinky. When Gimera kills a butterfly, Buck decides on a payback Predator-style",
+  "Rating": {
+    "code": "4",
+    "precedence": 4,
+    "Title": "Under 7"
+  },
+  "companyId": "B1",
+  "Directors": [
+    "Sacha Goedegebure"
+  ],
+  "Year": 2006,
+  "Images": [],
+  "_id": "B1_100ASSETS_094"
+}
+]
+}

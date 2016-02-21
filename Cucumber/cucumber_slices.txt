@@ -1,0 +1,72 @@
+cucumber_slices
+===============
+
+A simple parallel runner for Cucumber (Ruby)
+
+Problem description
+-------------------
+
+!!! Caveat !!!
+parallel_cucumber does a lot more than simply executing cucumber in parallel!
+
+parallel_cucumber spawns a number of cucumber instances in parallel, distributing a number of feature files across the cucumber instances.
+Feature files are split based on the number feature files and number of parallel instances.
+If there are 18 feature files, with a parallelism of 3, each instance will execute 6 feature files (more or less).
+
+An imbalance in the execution time of feature files can lead to an unacceptable loss of parallelism.
+
+e.g., take the case where there are 12 one minute features and 6 five minute features, which are distributed across three threads.
+It's possible that the 12 features are executed on threads 1 and 2, whilst the remaining features are executed on thread 3.
+
+Total execution time: 12 + 30 = 42 minutes
+Expected execution time: 42 / 3 = 14 minutes
+Actual execution time: 30 minutes
+
+Solution
+--------
+
+The solution is to not pre-determine which features will run where.
+Instead, we spawn cucumber once per feature file on any available thread.
+
+This improves the execution time in a number of (not-so-pathological) cases.
+
+How it works
+------------
+
+cucumber_slices -n 3 -f 'tests/System* tests/integration/basic.feature' 'all the rest of the options'
+
+```ruby
+  Find all files specified in <f> and add to queue
+
+  Run <n> threads {
+    Unshift item (file) from queue
+    Execute cucumber, passing in the file and supplied options
+  }
+
+  When the queue is empty:
+     done
+```
+
+Environment variables
+---------------------
+
+When running cucumber/rake, key=value pairs passed on the commandline are available in ruby under ENV (environment variables).
+With cucumber_slices this is not the case.
+
+To work around this, you can execute cucumber_slices via a rake task, these key=value pairs will then be preserved and available within Cucumber.
+
+
+Should I use this?
+------------------
+
+Pros:
+    Better execution times in some cases
+    Simple, mostly compatible with parallel_cucumber usage
+Cons:
+    Doesn't collate results in any way, shape or form
+    Doesn't interleave very well (future improvement)
+    Doesn't directly support environment variables
+    Not available as a gem
+    Mostly just an excuse to call something cucumber_slices
+
+

@@ -1,0 +1,13 @@
+[caps]
+platformName = "Android"
+deviceName = "Android"
+app = "/Users/johnkellett/Downloads/ANMP_3.9.0.apk"
+automationName = "Appium"
+appPackage = "nagra.nmp"
+appActivity = "nagra.html.HomeActivity"
+
+
+[appium_lib]
+sauce_username = false
+sauce_access_key = false
+server_url = "http://192.168.2.10:4723/wd/hub"
